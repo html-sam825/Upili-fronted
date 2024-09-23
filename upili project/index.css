@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: antiquewhite;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  font-size: 17px;
+  text-transform: none;
+  display: grid;
+  align-items: baseline;
+  background-color: white;
+  color: black;
+}
+/* .nav-item,
+.nav-link {
+  color: #f87c24;
+  text-decoration: none;
+} */
+
+.navbar-nav {
+  cursor: pointer;
+}
+.homeContent {
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 70vh;
+}
+
+.hhome {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 50vh;
+}
+
+.challengeContent {
+  height: relate;
+  background-color: white;
+}
+.challengeContent,
+img {
+  margin-left: 100px;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+.challengeContent,
+.text {
+  font-size: large;
+}
+
+.changeContent {
+  background-color: #fff4ec;
+}
+.toc {
+  text-align: center;
+  color: #f87c24;
+  font-weight: bold;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+.card border {
+  border-color: #88c444;
+}
+.card-header {
+  text-align: center;
+  color: black;
+  background-color: #88c444;
+  padding: 10px;
+  border-color: #88c444;
+  font-size: 20px;
+}
+
+.card-text {
+  border-color: #88c444;
+  background-color: white;
+  color: gray;
+}
+
+.sh {
+  color: #88c444;
+  font-size: 40px;
+  font-weight: 300px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.any {
+  margin-left: 150px;
+  font-size: large;
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: #f87c24;
+  color: white;
+  border-radius: 40px;
+  margin-left: 50%;
+  margin-top: 50px;
+  border: none;
+  padding: 30px;
+  font-size: larger;
+}
+.contentImpact {
+  height: 150vh;
+  font-size: 2rem;
+}
+
+.impact {
+  text-align: center;
+  color: #88c444;
+  font-weight: 100;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card-body {
+  align-items: center;
+  border: none;
+  background-color: #fff4ec;
+}
+.card-subtitle {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #88c444;
+}
+
+.card-text {
+  display: flex;
+}
+
+.why {
+  color: #88c444;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.carousel-item {
+  text-align: center;
+
+  unicode-bidi: isolate;
+  box-sizing: inherit;
+}
+
+.our {
+  color: #88c444;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.teamcontent {
+  align-items: center;
+  padding: center;
+  height: 200vh;
+  background-color: lightblue;
+}
+
+.car {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 40px;
+}
+
+.fund {
+  color: #f87c24;
+  text-align: center;
+  font-size: 30px;
+}
+
+.sup {
+  color: #88c444;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.txt {
+  text-align: center;
+  display: flex;
+  font-size: 2rem;
+}
+
+.form {
+  border: 1px solid black;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  width: 330px;
+  height: 500px;
+  background-color: aliceblue;
+}
+
+.contr {
+  width: auto;
+  background-color: darkgrey;
+  color: white;
+}
+
+button {
+  width: 50px;
+  height: 45px;
+  font-size: x-large;
+
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.contactContent {
+  align-items: center;
+  justify-content: center;
+}
+.fa {
+  color: #f87c24;
+}
+
+.cint {
+  text-align: center;
+  color: #f87c24;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.keep {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.con {
+  text-align: center;
+  font-size: 25px;
+}
+
+.msg {
+  text-align: center;
+  padding: 10px;
+}
+
+.but {
+  text-align: right;
+}
+.your {
+  padding: 10px;
+}
+
+.contfooter {
+  background-color: #f87c24;
+  height: 150px;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
